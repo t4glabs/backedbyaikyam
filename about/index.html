@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="Light" data-font="General Sans">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us – aikyam fund</title>
+    <style>
+        @font-face {
+            font-family: "General Sans";
+            font-style: normal;
+            font-weight: 300 700;
+            font-display: swap;
+            src: url(../assets/fonts/general-sans.woff2) format("woff2");
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../assets/built/style.css">
+    <script>
+        try {
+            if (localStorage.darkMode === "true" || (!("darkMode" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+                document.documentElement.classList.add("dark");
+            }
+        } catch (_) {}
+    </script>
+    <meta name="description" content="aikyam Fund supports NGOs and grassroot people with funding and capacity building.">
+    <link rel="icon" href="../assets/images/favicon.png" type="image/png">
+    <meta property="og:site_name" content="aikyam fund">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Us – aikyam fund">
+    <meta property="og:description" content="aikyam Fund supports NGOs and grassroot people with funding and capacity building.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="About Us – aikyam fund">
+    <meta name="twitter:description" content="aikyam Fund supports NGOs and grassroot people with funding and capacity building.">
+    <style>:root {--ghost-accent-color: #060606;}</style>
+</head>
+<body class="bg-primary font-body text-text font-weight-body">
+    <div class="viewport">
+
+        <!-- Navbar -->
+        <header class="navbar relative bg-primary pt-4 z-40">
+            <a class="skip-link" href="#main">Skip to content</a>
+            <div class="container">
+                <div class="grid items-start gap-x-6 w-full lg:grid-cols-[1fr_auto_1fr]">
+
+                    <!-- Desktop nav -->
+                    <nav class="justify-self-start flex w-full not-lg:hidden" aria-label="Main navigation">
+                        <ul class="flex gap-x-1 li:not-last:not-submenu:after:content-[','] a:not-submenu:font-variable a:text-decoration">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="index.html" aria-current="page">About</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Logo + mobile controls -->
+                    <div class="justify-self-center grid-cols-[1fr_auto_1fr] items-center gap-x-4 w-full not-lg:grid">
+                        <div class="justify-self-start lg:hidden">
+                            <button class="icon-base var-secondary" aria-label="Menu" data-menu-toggle>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8l16 0" /><path d="M4 16l16 0" /></svg>
+                            </button>
+                        </div>
+                        <div class="justify-self-center">
+                            <a class="group flex h-logo text-center" href="../index.html">
+                                <img class="block w-auto h-full transition-opacity group-hover:opacity-80" src="../assets/images/logo.png" width="92" height="48" alt="aikyam fund" fetchpriority="high" loading="eager">
+                            </a>
+                        </div>
+                        <div class="justify-self-end flex items-center gap-x-2.5 lg:hidden">
+                            <button class="icon-base var-current lg:icon-sm not-lg:hidden" aria-label="Dark Mode" data-theme-toggle>
+                                <div class="transition-opacity will-change-[opacity] duration-300 dark:opacity-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
+                                </div>
+                                <div class="absolute opacity-0 transition-opacity duration-300 will-change-[opacity] dark:opacity-100">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /><path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" /><path d="M19 11h2m-1 -1v2" /></svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Desktop right controls -->
+                    <div class="justify-self-end flex items-center gap-x-2.5 not-lg:hidden">
+                        <button class="icon-base var-current lg:icon-sm not-lg:hidden" aria-label="Dark Mode" data-theme-toggle>
+                            <div class="transition-opacity will-change-[opacity] duration-300 dark:opacity-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
+                            </div>
+                            <div class="absolute opacity-0 transition-opacity duration-300 will-change-[opacity] dark:opacity-100">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /><path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" /><path d="M19 11h2m-1 -1v2" /></svg>
+                            </div>
+                        </button>
+                        <a class="btn-sm var-primary" href="mailto:shemeer@aikyamhq.com">
+                            Get in touch
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- Main content -->
+        <main class="py-20 sm:py-28 lg:py-36" id="main">
+            <article class="space-y-12 sm:space-y-20">
+                <header class="space-y-12 sm:space-y-20">
+                    <div class="canvas">
+                        <div class="space-y-2.5 text-center">
+                            <h1 class="heading-3xl">About Us</h1>
+                        </div>
+                    </div>
+                </header>
+                <div class="canvas prose">
+                    <p>Welcome to aikyam Fund.</p>
+                    <p>aikyam Fund exists to support NGOs and grassroot organisations doing meaningful work on the ground. We provide funding and capacity building to help communities grow stronger — enabling people and organisations to create lasting change where it matters most.</p>
+                    <p>We believe in the power of small and mid-sized civil society organisations. By backing them with resources and strategic support, we aim to multiply their impact and help them build the infrastructure they need to sustain their work over the long term.</p>
+                    <p>Whether you are an NGO looking for support, a grassroot leader building something new, or a partner who wants to collaborate — we'd love to hear from you.</p>
+                    <hr>
+                    <p>Write to <a href="mailto:shemeer@aikyamhq.com" rel="noreferrer">shemeer@aikyamhq.com</a> for any queries.</p>
+                </div>
+            </article>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer bg-footer-primary text-footer-text">
+            <div class="container">
+                <div class="py-28 sm:py-36 lg:py-48">
+                    <div class="max-w-xs mx-auto space-y-6 text-center sm:max-w-lg">
+                        <h2 class="heading-2xl text-footer-heading a:link a:text-current">
+                            Want to know more about our work? Reach out to us.
+                        </h2>
+                        <a class="btn-base var-footer" href="mailto:shemeer@aikyamhq.com">
+                            <span>Contact us</span>
+                            <span class="text-lg opacity-50">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 7l-10 10" /><path d="M8 7l9 0l0 9" /></svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col-reverse justify-between gap-y-4 gap-x-6 py-6 not-sm:text-center sm:flex-row">
+                    <p class="font-variable a:text-decoration">
+                        &copy; 2026 <a href="../index.html">aikyam fund</a>
+                    </p>
+                    <ul class="flex justify-center flex-wrap gap-1 li:not-last:after:content-[','] a:font-variable a:text-decoration" aria-label="Footer navigation">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="index.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Mobile menu overlay -->
+        <div class="group fixed inset-0 z-50 bg-linear-to-br from-overlay/20 to-overlay/10 backdrop-blur-2xs invisible opacity-0 transition-[visibility,opacity] duration-300 not-lg:aria-expanded:visible not-lg:aria-expanded:opacity-100" aria-expanded="false" data-mobile-menu>
+            <div class="flex flex-col size-full bg-primary overflow-hidden" data-mobile-sidebar>
+                <div class="navbar grid grid-cols-[1fr_auto_1fr] items-center gap-x-4 p-4 pb-0">
+                    <div class="justify-self-start">
+                        <button class="icon-base var-secondary" aria-label="Close" data-menu-toggle>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
+                        </button>
+                    </div>
+                    <div class="justify-self-center">
+                        <a class="group flex h-logo text-center" href="../index.html">
+                            <img class="block w-auto h-full transition-opacity group-hover:opacity-80" src="../assets/images/logo.png" width="92" height="48" alt="aikyam fund" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="justify-self-end flex items-center gap-x-2.5">
+                        <button class="icon-base var-current lg:icon-sm" aria-label="Dark Mode" data-theme-toggle>
+                            <div class="transition-opacity will-change-[opacity] duration-300 dark:opacity-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
+                            </div>
+                            <div class="absolute opacity-0 transition-opacity duration-300 will-change-[opacity] dark:opacity-100">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /><path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" /><path d="M19 11h2m-1 -1v2" /></svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex-1 flex flex-col gap-y-4 p-4 overflow-hidden">
+                    <div class="flex-1 overflow-hidden group-aria-expanded:animate-fade-in-up">
+                        <div class="relative flex flex-col justify-center h-full overflow-hidden">
+                            <div class="absolute top-0 inset-x-0 h-6 bg-linear-to-b from-primary to-transparent pointer-events-none"></div>
+                            <nav class="max-h-full overflow-hidden overflow-y-auto py-4" aria-label="Menu">
+                                <ul class="heading-lg text-current text-center space-y-2.5">
+                                    <li><a class="text-decoration" href="../index.html">Home</a></li>
+                                    <li><a class="text-decoration" href="index.html">About</a></li>
+                                </ul>
+                            </nav>
+                            <div class="absolute bottom-0 inset-x-0 h-6 bg-linear-to-t from-primary to-transparent pointer-events-none"></div>
+                        </div>
+                    </div>
+                    <a class="btn-lg var-primary w-full" href="mailto:shemeer@aikyamhq.com">
+                        <span>Contact us</span>
+                        <span class="text-lg opacity-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 7l-10 10" /><path d="M8 7l9 0l0 9" /></svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Dark mode toggle
+        document.querySelectorAll('[data-theme-toggle]').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var isDark = document.documentElement.classList.toggle('dark');
+                try { localStorage.darkMode = isDark; } catch (_) {}
+            });
+        });
+
+        // Mobile menu toggle
+        document.querySelectorAll('[data-menu-toggle]').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var menu = document.querySelector('[data-mobile-menu]');
+                if (menu) {
+                    var isExpanded = menu.getAttribute('aria-expanded') === 'true';
+                    menu.setAttribute('aria-expanded', String(!isExpanded));
+                }
+            });
+        });
+    </script>
+</body>
+</html>
